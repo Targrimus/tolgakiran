@@ -27,7 +27,7 @@ const hbs = expbs.create({
     layoutsDir: path.join(__basedir, 'views/layouts'), // change layout folder name
     partialsDir: path.join(__basedir, 'views/partials'), // change partials folder name
 
-    // create custom express handlebars helpers
+    // create custom express handlebars helpers examples
     helpers: {
         calculation: function(value) {
             return value * 5;
